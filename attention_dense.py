@@ -2,7 +2,7 @@ import numpy as np
 
 from attention_utils import get_activations, get_data
 
-np.random.seed(1337)  # for reproducibility
+np.random.seed(1337)  # for reproducibility of results
 from keras.models import *
 from keras.layers import Input, Dense, merge
 
